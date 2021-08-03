@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>date</title>
+</head>
+<body>
+    <p th:text="${mydate}"></p>
+    <p th:text="${#dates.format(mydate, 'dd/MMM/yyyy HH:mm')}"></p>
+<!--    <p th:text="${#dates.arrayFormat(datesArray, 'dd/MMM/yyyy HH:mm')}"></p>-->
+<!--    <p th:text="${#dates.listFormat(datesList, 'dd/MMM/yyyy HH:mm')}"></p>-->
+<!--    <p th:text="${#dates.setFormat(datesSet, 'dd/MMM/yyyy HH:mm')}"></p>-->
+
+
+
+</body>
+</html>
